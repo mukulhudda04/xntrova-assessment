@@ -1,16 +1,65 @@
-# React + Vite
+# Xntrova Technologies — Homepage Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive and conversion-focused homepage redesign for Xntrova Technologies, developed as part of the practical web development assessment.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://xntrova-assessment.vercel.app
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/mukulhudda04/xntrova-assessment
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- React Hooks
+
+## Key Features
+
+- Modern responsive homepage
+- Responsive navigation with mobile menu
+- Hero section with clear CTAs
+- Services section
+- About section
+- Why Choose Us section
+- Process / How We Work section
+- Portfolio / Selected Work section
+- Testimonials section
+- Conversion-focused CTA
+- Contact / Lead form with client-side validation
+- Form submission success state
+- Responsive footer
+- Smooth scrolling navigation
+- Hover interactions and subtle animations
+- SEO-friendly page metadata
+- Reduced-motion support
+
+## Project Structure
+
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Services.jsx
+│   ├── About.jsx
+│   ├── WhyChooseUs.jsx
+│   ├── Process.jsx
+│   ├── Portfolio.jsx
+│   ├── Testimonials.jsx
+│   ├── CTA.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
